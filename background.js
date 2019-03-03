@@ -1,4 +1,8 @@
-var ReResMap = [];
+var ReResMap = [{
+	req:'.*\.file-static\.com\/data\/avatar\/.*', 
+	res:'http://www.baidu.com/img/bd_logo1.png', 
+	checked:true
+}];
 var typeMap = {
     "txt"   : "text/plain",
     "html"  : "text/html",
